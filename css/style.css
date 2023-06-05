@@ -30,7 +30,8 @@ body {
     align-items: center;
     height: 97px;
 }
-.hero-link{
+
+.hero-link {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -47,9 +48,14 @@ body {
     border-radius: 8px;
     transition: background-color 0.4s ease;
 }
-.hover-link:hover{
- background-color: rgba(222, 46, 84, 0.8);
+
+.hero-link:hover {
+    background-color: rgba(222, 46, 84, 0.8);
 }
+.hero-link:active{
+    opacity: 0.6;
+}
+
 .hero-image {
     transition: color 0.4s ease;
 }
@@ -65,7 +71,7 @@ body {
 }
 
 .headernav-link {
-    
+
     text-decoration: none;
     margin-right: 32px;
     font-family: 'Open Sans';
@@ -106,7 +112,7 @@ body {
     padding: 12px 24px;
     border-radius: 8px;
     transition: color 0.4s ease,
-    background-color 0.4s ease;
+        background-color 0.4s ease;
 }
 
 .link:hover {
@@ -148,7 +154,7 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #fff;
-    /* width: 440px; */
+    width: 440px;
     height: 108px;
     left: 170px;
     top: 320px;
@@ -222,7 +228,9 @@ body {
 
     color: #444444;
 }
-
+.foooter{
+    background-color: #222222;
+}
 .footer-section {
     color: #fff;
     background-color: #0eb4c1;
@@ -261,14 +269,16 @@ body {
     color: #fff;
     margin: 20px;
     transition: color 0.4s ease,
-    background-color 0.4s ease ;
+        background-color 0.4s ease;
 
 }
-.footer-content:hover{
-    color:#fff ;
-    background-color:#DE2E54;
+
+.footer-content:hover {
+    color: #fff;
+    background-color: #DE2E54;
 }
-.footer-content:active{
+
+.footer-content:active {
     opacity: 0.6;
 }
 
@@ -276,7 +286,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #222222;
     height: 97px;
 
 }
@@ -299,7 +308,7 @@ body {
     display: flex;
     text-align: center;
     margin-top: 0;
-    transition:   color 0.4s ease; 
+    transition: color 0.4s ease;
 
 }
 
@@ -308,8 +317,9 @@ body {
     text-decoration: none;
     color: #fff;
     margin-right: 32px;
- 
+
 }
+
 .footer-list:hover {
     color: #DE2E54;
 }
