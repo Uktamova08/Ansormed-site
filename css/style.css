@@ -112,14 +112,21 @@ body {
     padding: 12px 24px;
     border-radius: 8px;
     transition: color 0.4s ease,
-        background-color 0.4s ease;
+        background-color 0.4s ease,
+        border 0.4s ease;
 }
 
 .link:hover {
     color: #DE2E54;
     background-color: #fff;
+    border: 2px #DE2E54 solid;
 
 
+}
+.link:active{
+   background-color: #DE2E54;
+   color: #fff;
+    opacity: 0.6;
 }
 
 .hero-top {
