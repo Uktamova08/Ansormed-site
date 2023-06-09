@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-   
+
 }
 
 .container {
@@ -58,15 +58,17 @@ body {
 .hero-image {
     color: #222222;
     transition: color 0.4s ease,
-    opacity 0.4s ;
+        opacity 0.4s;
 }
 
 .hero-image:hover {
     color: #DE2E54;
 }
-.hero-image:active{
+
+.hero-image:active {
     opacity: 0.6;
 }
+
 .headernav {
     list-style: none;
     display: flex;
@@ -94,8 +96,10 @@ body {
 .headernav-link:active {
     opacity: 0.6;
 }
-
-.headernav-link:not(:last-child) {
+.headernav-list{
+    margin-right: 32px;
+}
+.headernav-list:not(:last-child) {
     margin-right: 32px;
 }
 
@@ -115,14 +119,15 @@ body {
     padding: 12px 24px;
     border-radius: 8px;
     transition: color 0.4s ease,
-        background-color 0.4s ease,
-        border 0.4s ease;
+    background-color 0.4s ease,
+     border 0.4s ease,
+     opacity 0.4s;
 }
 
 .link:hover {
     color: #DE2E54;
     background-color: #fff;
-    border: 2px #DE2E54 solid;
+    border: 2px solid  #DE2E54;
 
 
 }
@@ -183,6 +188,8 @@ body {
 }
 
 .main {
+    margin-top: 0;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -286,11 +293,14 @@ body {
     color: #fff;
     margin: 20px;
     transition: color 0.4s ease,
-        background-color 0.4s ease;
+        background-color 0.4s ease,
+        opacity 0.4s,
+        border 0.4s ease;
 
 }
 
 .footer-content:hover {
+    border: 2px solid #de2e54;
     color: #fff;
     background-color: #DE2E54;
 }
@@ -306,25 +316,32 @@ body {
     height: 97px;
 
 }
-.footer-images{
+
+.footer-images {
     color: #fff;
     transition: color 0.4s ease,
-    opacity 0.4s ;
+        opacity 0.4s;
 }
-.footer-images:hover{
+
+.footer-images:hover {
     color: #DE2E54;
 }
-.footer-images:active{
+
+.footer-images:active {
     color: #fff;
     opacity: 0.6;
 }
+
 .footer-top {
+    margin-top: 0;
+    padding: 0;
     font-family: 'Open sans';
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     color: #fff;
     margin-bottom: 0;
+    margin-right: 32px;
 }
 
 .footer-list {
@@ -336,14 +353,18 @@ body {
     text-align: center;
     margin-top: 0;
     transition: color 0.4s ease;
+    margin-right: 32px;
+}
 
+.footer-list:not(:last-child) {
+    margin-right: 32px;
 }
 
 .footer-link {
     list-style-type: none;
     text-decoration: none;
     color: #fff;
-    margin-right: 32px;
+
 
 }
 
