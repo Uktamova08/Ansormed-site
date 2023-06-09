@@ -23,10 +23,12 @@ body {
 
 
 .header-top {
+    margin-top: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 97px;
+    justify-content: space-between;
+   
+    padding: 24px 0;
 }
 
 .hero-link {
@@ -75,6 +77,10 @@ body {
     align-items: center;
 }
 
+.headernav-list:not(:last-child) {
+    margin-right: 32px;
+}
+
 .headernav-link {
 
     text-decoration: none;
@@ -87,7 +93,7 @@ body {
     text-transform: uppercase;
     color: #222222;
     transition: color 0.4s ease;
-    margin-right: 32px;
+ margin-right: 0;
 }
 
 .headernav-link:hover {
@@ -139,6 +145,7 @@ body {
 
 .hero-top {
     background-color: #0eb4c1;
+    padding-top: 29px;
 }
 
 .hero-images:hover {
@@ -187,8 +194,10 @@ body {
 }
 
 .main {
-    margin-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 227px;
     padding-left: 0;
+    margin-top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -208,7 +217,7 @@ body {
 
 .heading2 {
     margin-top: 0;
-    margin-bottom: 81px;
+    margin-bottom: 56px;
     text-align: center;
     font-family: 'Roboto Condensed', 'Aril', sans-serif;
     font-weight: 700;
@@ -233,6 +242,8 @@ body {
 }
 
 .main-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
     font-family: 'Roboto Condensed', 'Aril', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -241,21 +252,25 @@ body {
 }
 
 .main-text {
+    margin: 0;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-
-
     color: #444444;
 }
 
 .foooter {
     background-color: #222222;
+
 }
 
 .footer-section {
+    margin-top: 0;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    align-items: center;
     color: #fff;
     background-color: #0eb4c1;
     font-family: 'Open sans';
@@ -263,17 +278,18 @@ body {
     font-style: 150%;
     line-height: 120%;
     height: 253px;
-    margin-top: 120px;
+
 }
 
 .h2 {
+    margin-top: 0;
+    margin-bottom: 52px;
     text-align: center;
     font-family: 'Roboto Condensed';
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
     color: #fff;
-    padding-top: 64px;
 }
 
 .footerlink {
@@ -291,12 +307,11 @@ body {
     border: 2px solid white;
     border-radius: 8px;
     color: #fff;
-    margin: 20px;
     transition: color 0.4s ease,
         background-color 0.4s ease,
         opacity 0.4s,
         border 0.4s ease;
-
+    margin-bottom: 76px;
 }
 
 .footer-content:hover {
@@ -307,6 +322,10 @@ body {
 
 .footer-content:active {
     opacity: 0.6;
+}
+
+.footer-content:not(:last-child) {
+    margin-right: 32px;
 }
 
 .footer {
