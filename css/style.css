@@ -228,10 +228,10 @@ body {
     color: #222222;
 
 }
-
 .main-list {
     list-style: none;
     display: flex;
+    align-items: center;
     margin-right: auto;
     margin-left: auto;
     width: 864px;
@@ -254,6 +254,7 @@ body {
 }
 
 .main-text {
+ 
     margin: 0;
     font-family: 'Open Sans';
     font-style: normal;
@@ -298,11 +299,9 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom: 76px;
-    margin-right: 32px;
+   
 }
-.footerlink:not(:last-child) {
-    margin-right: 32px;
-}
+
 .footer-content {
     text-align: center;
     text-decoration: none;
@@ -328,7 +327,9 @@ body {
     opacity: 0.6;
 }
 
-
+.footer-content:not(:last-child) {
+    margin-right: 32px;
+}
 
 .footer {
     display: flex;
