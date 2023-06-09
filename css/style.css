@@ -298,9 +298,11 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom: 76px;
-
+    margin-right: 32px;
 }
-
+.footerlink:not(:last-child) {
+    margin-right: 32px;
+}
 .footer-content {
     text-align: center;
     text-decoration: none;
@@ -326,9 +328,7 @@ body {
     opacity: 0.6;
 }
 
-.footer-content:not(:last-child) {
-    margin-right: 32px;
-}
+
 
 .footer {
     display: flex;
