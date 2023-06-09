@@ -96,10 +96,8 @@ body {
 .headernav-link:active {
     opacity: 0.6;
 }
-.headernav-list{
-    margin-right: 32px;
-}
-.headernav-list:not(:last-child) {
+
+.headernav-link:not(:last-child) {
     margin-right: 32px;
 }
 
